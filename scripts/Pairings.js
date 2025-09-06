@@ -23,7 +23,7 @@ const findCelebrityMatch = (kid, celebrities) => {
 
 export const Pairings = () => {
     let html = ""
-    html += "<ul>"
+    html = "<ul>"
 
     for (const kid of kids) {
             
