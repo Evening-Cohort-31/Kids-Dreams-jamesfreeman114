@@ -26,7 +26,7 @@ document.addEventListener(
     const celebrityClickEvent = clickEvent.target
 
     if (celebrityClickEvent.dataset.type === "celebrity") {
-        let celebrityId = celebrityClickEvent.dataset.id
+        const celebrityId = celebrityClickEvent.dataset.id
 
         for (const celebrity of celebrities) {
             if (celebrity.id === parseInt(celebrityId))

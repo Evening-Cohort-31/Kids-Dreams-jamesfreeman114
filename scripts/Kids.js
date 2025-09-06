@@ -23,7 +23,7 @@ document.addEventListener(
     const childClickEvent = clickEvent.target
 
     if (childClickEvent.dataset.type === "child") {
-        let childId = childClickEvent.dataset.id
+        const childId = childClickEvent.dataset.id
 
         for (const kid of children) {
             if (kid.id === parseInt(childId))
